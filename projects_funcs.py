@@ -4,6 +4,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 from datetime import datetime
 
+
 df = pd.read_csv("hotel_bookings.csv")
 
 def catplot(graph):
