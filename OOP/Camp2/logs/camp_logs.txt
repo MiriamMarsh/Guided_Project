@@ -1,0 +1,160 @@
+11:40:50,232 root ERROR 'Camp' object has no attribute 'add_counselor1'Traceback (most recent call last):
+  File "c:\Users\Owner\Documents\Guided_Project\OOP\Camp2\use_camp.py", line 18, in main
+    our_camp.add_counselor1
+AttributeError: 'Camp' object has no attribute 'add_counselor1'
+
+11:41:04,730 root ERROR 'Camp' object has no attribute 'add_counselor1'Traceback (most recent call last):
+  File "c:\Users\Owner\Documents\Guided_Project\OOP\Camp2\use_camp.py", line 18, in main
+    our_camp.add_counselor1
+AttributeError: 'Camp' object has no attribute 'add_counselor1'
+
+11:41:34,268 root ERROR 'Camp' object has no attribute 'add_counselor1'Traceback (most recent call last):
+  File "c:\Users\Owner\Documents\Guided_Project\OOP\Camp2\use_camp.py", line 18, in main
+    our_camp.add_counselor
+AttributeError: 'Camp' object has no attribute 'add_counselor1'
+
+11:41:52,948 root ERROR 'Camp' object has no attribute 'add_counselor1'Traceback (most recent call last):
+  File "c:\Users\Owner\Documents\Guided_Project\OOP\Camp2\use_camp.py", line 18, in main
+    our_camp.add_counselor
+AttributeError: 'Camp' object has no attribute 'add_counselor1'
+
+11:42:51,858 root INFO choice: 1completed Successfully
+11:43:33,505 root INFO choice: 1completed Successfully
+11:43:53,929 root INFO choice: 1completed Successfully
+11:47:37,160 root INFO choice: 1completed Successfully
+11:48:16,661 root INFO choice: 1completed Successfully
+11:49:42,423 root INFO choice: 1completed Successfully
+11:53:10,228 root INFO choice: 1completed Successfully
+11:55:12,115 root INFO choice: 1completed Successfully
+11:55:21,30 root ERROR Counselor was not foundTraceback (most recent call last):
+  File "c:\Users\Owner\Documents\Guided_Project\OOP\Camp2\use_camp.py", line 30, in main
+    our_camp.add_bunk(bunk_name, counselor_fname, counselor_lname)
+  File "c:\Users\Owner\Documents\Guided_Project\OOP\Camp2\camp.py", line 69, in add_bunk
+    raise Exception ("Counselor was not found")
+Exception: Counselor was not found
+
+11:55:38,471 root ERROR time data '020202' does not match format '%d/%m/%Y'Traceback (most recent call last):
+  File "c:\Users\Owner\Documents\Guided_Project\OOP\Camp2\use_camp.py", line 36, in main
+    our_camp.add_camper(fname, lname, dob)
+  File "c:\Users\Owner\Documents\Guided_Project\OOP\Camp2\camp.py", line 62, in add_camper
+    self.persons.append(Camper(fname, lname, dob))
+  File "c:\Users\Owner\Documents\Guided_Project\OOP\Camp2\camper.py", line 8, in __init__
+    self.date_of_birth = datetime.strptime(date_of_birth,"%d/%m/%Y")
+  File "C:\ProgramData\Anaconda3\lib\_strptime.py", line 568, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+  File "C:\ProgramData\Anaconda3\lib\_strptime.py", line 349, in _strptime
+    raise ValueError("time data %r does not match format %r" %
+ValueError: time data '020202' does not match format '%d/%m/%Y'
+
+11:55:52,505 root ERROR 'NoneType' object has no attribute 'add_allergy'Traceback (most recent call last):
+  File "c:\Users\Owner\Documents\Guided_Project\OOP\Camp2\use_camp.py", line 42, in main
+    our_camp.add_allergy(fname, lname, allergies)
+  File "c:\Users\Owner\Documents\Guided_Project\OOP\Camp2\camp.py", line 89, in add_allergy
+    my_camper.add_allergy(allergies)
+AttributeError: 'NoneType' object has no attribute 'add_allergy'
+
+11:56:05,827 root INFO choice: 6completed Successfully
+11:59:02,351 root INFO choice: 1completed Successfully
+11:59:13,692 root ERROR Counselor was not foundTraceback (most recent call last):
+  File "c:\Users\Owner\Documents\Guided_Project\OOP\Camp2\use_camp.py", line 30, in main
+    our_camp.add_bunk(bunk_name, counselor_fname, counselor_lname)
+  File "c:\Users\Owner\Documents\Guided_Project\OOP\Camp2\camp.py", line 69, in add_bunk
+    raise Exception ("Counselor was not found")
+Exception: Counselor was not found
+
+11:59:59,336 root INFO choice: 1completed Successfully
+12:00:08,510 root ERROR Counselor was not foundTraceback (most recent call last):
+  File "c:\Users\Owner\Documents\Guided_Project\OOP\Camp2\use_camp.py", line 30, in main
+  File "c:\Users\Owner\Documents\Guided_Project\OOP\Camp2\camp.py", line 69, in add_bunk
+    raise Exception ("Counselor was not found")
+Exception: Counselor was not found
+
+12:00:22,805 root INFO choice: 1completed Successfully
+12:00:31,282 root ERROR Counselor was not foundTraceback (most recent call last):
+  File "c:\Users\Owner\Documents\Guided_Project\OOP\Camp2\use_camp.py", line 30, in main
+  File "c:\Users\Owner\Documents\Guided_Project\OOP\Camp2\camp.py", line 69, in add_bunk
+    raise Exception ("Counselor was not found")
+Exception: Counselor was not found
+
+12:01:05,434 root INFO choice: 1completed Successfully
+12:01:58,764 root INFO choice: 1completed Successfully
+12:02:25,338 root ERROR time data '0249' does not match format '%d/%m/%y'Traceback (most recent call last):
+  File "c:\Users\Owner\Documents\Guided_Project\OOP\Camp2\use_camp.py", line 17, in main
+    our_camp.add_counselor(fname, lname, hire_date, salary)
+  File "c:\Users\Owner\Documents\Guided_Project\OOP\Camp2\camp.py", line 55, in add_counselor
+    self.persons.append(Counselor(fname, lname, hire_date, salary))
+  File "c:\Users\Owner\Documents\Guided_Project\OOP\Camp2\counselor.py", line 5, in __init__
+    self.hire_date = datetime.strptime(hire_date, "%d/%m/%y")
+  File "C:\ProgramData\Anaconda3\lib\_strptime.py", line 568, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+  File "C:\ProgramData\Anaconda3\lib\_strptime.py", line 349, in _strptime
+    raise ValueError("time data %r does not match format %r" %
+ValueError: time data '0249' does not match format '%d/%m/%y'
+
+12:02:37,881 root ERROR time data '030303' does not match format '%d/%m/%y'Traceback (most recent call last):
+  File "c:\Users\Owner\Documents\Guided_Project\OOP\Camp2\use_camp.py", line 17, in main
+    our_camp.add_counselor(fname, lname, hire_date, salary)
+  File "c:\Users\Owner\Documents\Guided_Project\OOP\Camp2\camp.py", line 55, in add_counselor
+    self.persons.append(Counselor(fname, lname, hire_date, salary))
+  File "c:\Users\Owner\Documents\Guided_Project\OOP\Camp2\counselor.py", line 5, in __init__
+    self.hire_date = datetime.strptime(hire_date, "%d/%m/%y")
+  File "C:\ProgramData\Anaconda3\lib\_strptime.py", line 568, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+  File "C:\ProgramData\Anaconda3\lib\_strptime.py", line 349, in _strptime
+    raise ValueError("time data %r does not match format %r" %
+ValueError: time data '0249' does not match format '%d/%m/%y'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\Owner\Documents\Guided_Project\OOP\Camp2\use_camp.py", line 22, in main
+    our_camp.add_counselor(fname, lname, hire_date, salary)
+  File "c:\Users\Owner\Documents\Guided_Project\OOP\Camp2\camp.py", line 55, in add_counselor
+    self.persons.append(Counselor(fname, lname, hire_date, salary))
+  File "c:\Users\Owner\Documents\Guided_Project\OOP\Camp2\counselor.py", line 5, in __init__
+    self.hire_date = datetime.strptime(hire_date, "%d/%m/%y")
+  File "C:\ProgramData\Anaconda3\lib\_strptime.py", line 568, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+  File "C:\ProgramData\Anaconda3\lib\_strptime.py", line 349, in _strptime
+    raise ValueError("time data %r does not match format %r" %
+ValueError: time data '030303' does not match format '%d/%m/%y'
+
+12:04:08,462 root INFO choice: 1completed Successfully
+12:04:43,410 root INFO choice: 1completed Successfully
+12:05:06,230 root INFO choice: 1completed Successfully
+12:05:20,814 root INFO choice: 2completed Successfully
+12:05:37,984 root INFO choice: 3completed Successfully
+12:05:48,257 root INFO choice: 4completed Successfully
+12:05:51,115 root INFO choice: 6completed Successfully
+12:06:08,802 root ERROR Counselor already existsTraceback (most recent call last):
+  File "c:\Users\Owner\Documents\Guided_Project\OOP\Camp2\use_camp.py", line 17, in main
+    our_camp.add_counselor(fname, lname, hire_date, salary)
+  File "c:\Users\Owner\Documents\Guided_Project\OOP\Camp2\camp.py", line 57, in add_counselor
+    raise Exception("Counselor already exists")
+Exception: Counselor already exists
+
+12:06:22,344 root ERROR time data '02' does not match format '%d/%m/%y'Traceback (most recent call last):
+  File "c:\Users\Owner\Documents\Guided_Project\OOP\Camp2\use_camp.py", line 17, in main
+    our_camp.add_counselor(fname, lname, hire_date, salary)
+  File "c:\Users\Owner\Documents\Guided_Project\OOP\Camp2\camp.py", line 55, in add_counselor
+    self.persons.append(Counselor(fname, lname, hire_date, salary))
+  File "c:\Users\Owner\Documents\Guided_Project\OOP\Camp2\counselor.py", line 5, in __init__
+    self.hire_date = datetime.strptime(hire_date, "%d/%m/%y")
+  File "C:\ProgramData\Anaconda3\lib\_strptime.py", line 568, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+  File "C:\ProgramData\Anaconda3\lib\_strptime.py", line 349, in _strptime
+    raise ValueError("time data %r does not match format %r" %
+ValueError: time data '02' does not match format '%d/%m/%y'
+
+12:28:58,625 root INFO choice: 1completed Successfully
+12:29:07,662 root INFO choice: 2completed Successfully
+12:29:21,370 root INFO choice: 3completed Successfully
+12:29:39,441 root ERROR 'NoneType' object has no attribute 'add_allergy'Traceback (most recent call last):
+  File "c:\Users\Owner\Documents\Guided_Project\OOP\Camp2\use_camp.py", line 41, in main
+    our_camp.add_allergy(fname, lname, allergies)
+  File "c:\Users\Owner\Documents\Guided_Project\OOP\Camp2\camp.py", line 88, in add_allergy
+    my_camper.add_allergy(allergies)
+AttributeError: 'NoneType' object has no attribute 'add_allergy'
+
+12:29:50,0 root INFO choice: 6completed Successfully
+12:31:08,906 root INFO choice: 6completed Successfully
