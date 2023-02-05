@@ -1,0 +1,1 @@
+THis is the wrong log file - please see my log folder in camp 2 - file name camp_logs.txt
